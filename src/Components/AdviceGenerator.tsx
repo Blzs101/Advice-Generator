@@ -29,11 +29,11 @@ export function AdviceGenerator() {
       <h1 className={styles.mainTitle}>Advice #{id}</h1>
       <p className={styles.quotes}>" {advice} "</p>
       <img
-        src="src\assets\pattern-divider-desktop.svg"
+        src="public/pattern-divider-desktop.svg"
         className={styles.divider}
       ></img>
       <button className={styles.btn_change} onClick={fetchData}>
-        <img src="src\assets\icon-dice.svg" className={styles.cube}></img>
+        <img src="public/icon-dice.svg" className={styles.cube}></img>
       </button>
     </div>
   );
