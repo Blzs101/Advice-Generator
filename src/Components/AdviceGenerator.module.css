@@ -1,0 +1,50 @@
+.container{
+    width: 26rem;
+    height: 16rem;
+    background-color: hsl(218, 20%, 24%);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right:auto;
+}
+.mainTitle{
+    color: hsl(150, 100%, 66%);
+    margin-top: -1rem;
+}
+.quotes{
+    height: 55%;
+    color: hsl(193, 38%, 86%);
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.divider{
+    color:hsl(193, 38%, 86%);
+    margin-left: -0.75rem;
+}
+.btn_change{
+    background-color: hsl(150, 100%, 66%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 1.75rem;
+    cursor: pointer;
+    border: none;
+}
+.btn_change:active{
+    box-shadow: 0 0 1.5rem hsl(150, 100%, 66%);
+}
+.cube{
+    width: 1.5rem;
+    aspect-ratio: 1;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@media (width < 500px) {
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
