@@ -10767,14 +10767,14 @@ function mm() {
         Qe.jsxs('h1', { className: Bt.mainTitle, children: ['Advice #', n] }),
         Qe.jsxs('p', { className: Bt.quotes, children: ['" ', e, ' "'] }),
         Qe.jsx('img', {
-          src: 'src//assets//pattern-divider-desktop.svg',
+          src: 'src/assets/pattern-divider-desktop.svg',
           className: Bt.divider,
         }),
         Qe.jsx('button', {
           className: Bt.btn_change,
           onClick: l,
           children: Qe.jsx('img', {
-            src: 'src//assets//icon-dice.svg',
+            src: 'src/assets/icon-dice.svg',
             className: Bt.cube,
           }),
         }),
